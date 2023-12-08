@@ -1,38 +1,52 @@
 .App {
-  text-align: center;
+  width: 100%;
+  max-width: max(300px, 480px);
+  position: relative;
+  background: #FFF;
+  padding-bottom: 100px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-gradient {
+  background: -webkit-linear-gradient(0deg, var(--pink), var(--blue));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.border-gradient {
+ 
+  border: double 1px transparent;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.gradient-right{
+  background-image: linear-gradient(white, white), linear-gradient(to right, var(--pink), var(--blue));
+}
+.gradient-bottom{
+  background-image: linear-gradient(white, white), linear-gradient(180deg, var(--pink), var(--blue));
+}
+.gradient-background-right{
+  background: linear-gradient(to right, var(--pink), var(--blue));
+}
+.gradient-background-bottom{
+  background: linear-gradient(180deg, var(--pink), var(--blue));
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+a{
+  color: #FFF;
+  text-decoration: none;
+  opacity: 60%;
+}
+.active{
+
+  opacity: 100%;
+}
+
+.card-slide{
   display: flex;
-  flex-direction: column;
+  padding: 10px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  overflow: auto;
+  gap: 20px;
 }

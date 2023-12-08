@@ -1,0 +1,28 @@
+.bottom-nav{
+    position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-width: max(300px, 480px);
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+nav{
+    width: 100%;
+    padding:max(1vw,1rem);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+}

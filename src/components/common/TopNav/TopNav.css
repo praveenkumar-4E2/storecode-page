@@ -1,0 +1,14 @@
+.top-nav{
+    padding: max(3vw,1rem);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.title{
+    color: #FF339C;
+}
+.top-nav-img{
+    width: 40px;
+    height: 40px;
+}
