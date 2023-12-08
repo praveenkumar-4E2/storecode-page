@@ -15,13 +15,15 @@
     padding: 2em 0px;
     border: 5px solid #fff;
     border-radius: 20px;
-    opacity: 70%;
+    opacity: 60%;
 }
 
 .input-box{
     width: 90%;
+    border: solid 3px transparent;
     border-radius: 19px;
     margin: 2em 0px;
+    opacity: 100%;
 }
 .box{
     width: 100%;
@@ -31,12 +33,13 @@
     border-radius: 9px;
 
     padding-left: 1em;
-    
+
 }
 
 .code-btn{
-    width: 40%;
-    border-radius: 10px;
+    width: 30%;
+    border: solid 3px transparent;
+    border-radius: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,7 +47,7 @@
 .btn-txt{
     width: 100%;
     height: 100%;
-    padding: 10px;
+    padding: 20px 0px;
     color: white;
     border-radius: 9px;
     text-align: center;
