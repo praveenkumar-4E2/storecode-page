@@ -20,14 +20,14 @@ const RouterPage = () => {
       <Routes>
         <Route path="/" element={<MainPage />} >
           <Route path="/" element={<HomePage />} />
-          <Route path="/*" element={<HomePage />} />
+          
           <Route path="about" element={<AboutPage />} />
           <Route path="account" element={<AccountPage />} />
           <Route path="blog" element={<BlogPage />} />
           <Route path="chat" element={<ChatPage />} />
         </Route >
 
-
+        <Route path="/*" element={<HomePage />} />
         <Route path="registeration" element={<RegisterationPage />} />
         <Route path="login" element={<LoginPage />} />
         <Route path="forgot/password" element={<ForgotPasswordPage />} />
