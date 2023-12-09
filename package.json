@@ -2,7 +2,7 @@
   "homepage": "https://praveenkumar-4E2.github.io/storecode-page",
   "name": "storecode-hero",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
