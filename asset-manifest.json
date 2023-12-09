@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/storecode-page/static/css/main.e8d71e26.css",
-    "main.js": "/storecode-page/static/js/main.2fcf219b.js",
+    "main.js": "/storecode-page/static/js/main.046cb7f7.js",
     "static/media/apple.png": "/storecode-page/static/media/apple.a3ccb0b67ee4833a9c21.png",
     "static/media/image2.png": "/storecode-page/static/media/image2.395059541251c9575665.png",
     "static/media/product2.png": "/storecode-page/static/media/product2.88d37980a45a2002ebb1.png",
     "static/media/image3.png": "/storecode-page/static/media/image3.5dbc804181a1e9f66722.png",
     "index.html": "/storecode-page/index.html",
     "main.e8d71e26.css.map": "/storecode-page/static/css/main.e8d71e26.css.map",
-    "main.2fcf219b.js.map": "/storecode-page/static/js/main.2fcf219b.js.map"
+    "main.046cb7f7.js.map": "/storecode-page/static/js/main.046cb7f7.js.map"
   },
   "entrypoints": [
     "static/css/main.e8d71e26.css",
-    "static/js/main.2fcf219b.js"
+    "static/js/main.046cb7f7.js"
   ]
 }
