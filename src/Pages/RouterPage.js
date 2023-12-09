@@ -18,8 +18,8 @@ const RouterPage = () => {
     <div>
 
       <Routes>
-        <Route exact path="/storecode-page" element={<MainPage />} >
-          <Route path="/" element={<HomePage />} />
+        <Route  exact path="/" element={<MainPage />} >
+          <Route index  element={<HomePage />} />
           <Route path="about" element={<AboutPage />} />
           <Route path="account" element={<AccountPage />} />
           <Route path="blog" element={<BlogPage />} />
@@ -27,12 +27,12 @@ const RouterPage = () => {
         </Route >
 
         <Route path="/*" element={<MainPage />} />
-        <Route path="/registeration" element={<RegisterationPage />} />
-        <Route path="/login" element={<LoginPage />} />
-        <Route path="/forgot/password" element={<ForgotPasswordPage />} />
-        <Route path="/otp" element={<OTPverificationPage />} />
-        <Route path="/password" element={<NewPasswordPage />} />
-        <Route path="/password/changed" element={<PasswordChangesPage />} />
+        <Route path="registeration" element={<RegisterationPage />} />
+        <Route path="login" element={<LoginPage />} />
+        <Route path="forgot/password" element={<ForgotPasswordPage />} />
+        <Route path="otp" element={<OTPverificationPage />} />
+        <Route path="password" element={<NewPasswordPage />} />
+        <Route path="password/changed" element={<PasswordChangesPage />} />
         
       </Routes>
     </div>
