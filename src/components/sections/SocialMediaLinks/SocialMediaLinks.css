@@ -1,0 +1,55 @@
+.links {
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
+    gap: 20px;
+  }
+  
+  .social-icons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 8px 0px;
+  }
+  .lines > span{
+    width:100%;
+  }
+  .link{
+    border-radius: 10px;
+    box-sizing: content-box;
+  }
+ 
+  .link img {
+    width: 30px;
+    height: 30px;
+    
+    margin: 8px 32px;
+    border-radius: 6px;
+    background-color: #fff;
+    cursor: pointer;
+  
+  }
+  .lines{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: space-evenly;
+    font-size: 14px;
+  }
+.line {
+    width:100%;
+    height: 1px;
+   
+}
+.line1{
+    background-color: var(--pink);
+}
+.line2{
+    background-color: var(--blue);
+}

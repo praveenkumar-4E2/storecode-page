@@ -1,0 +1,33 @@
+
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+
+
+}
+
+.opt-fields input{
+    width:50px;
+    height:50px;
+    font-size: 24px;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.opt-fields > span{
+    border-radius: 8px;
+    width: 100%;
+}
+.opt-fields{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    column-gap:32px;
+    margin-bottom: 24px;
+
+}

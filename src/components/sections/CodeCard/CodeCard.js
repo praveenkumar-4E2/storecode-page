@@ -4,7 +4,7 @@ import './CodeCard.css'
 const CodeCard = () => {
     return (
         <div className='codeCard-border border-gradient gradient-bottom'>
-            <div className=' codeCard-inner gradient-background-right'>
+            <div className=' codeCard-inner gradient-background'>
 
                 <div>
                     <h3>Get a code for your link</h3>

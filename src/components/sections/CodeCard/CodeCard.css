@@ -2,53 +2,57 @@
     width: 100%;
     border: double 5px transparent;
     border-radius: 20px;
-    margin: 2em 0;
-   
+    margin: 1em 0px;
     
 }
 .codeCard-inner{
-    width: 100%;
+    
+    padding: 1em;
     display: flex;
     align-items: center;
     flex-direction: column;
     align-items: center;
-    padding: 2em 0px;
     border: 5px solid #fff;
     border-radius: 20px;
-    opacity: 60%;
 }
 
 .input-box{
-    width: 90%;
-    border: solid 3px transparent;
-    border-radius: 19px;
-    margin: 2em 0px;
-    opacity: 100%;
+    margin: 2em 0px 3em 0px;
+    border: solid 2px transparent;
+    border-radius: 11px;
+    background-image:  linear-gradient(white, white),linear-gradient(120deg,rgba(198, 58, 192, 0.8),rgba(81, 142, 248, 0.5));
+    
 }
+
 .box{
-    width: 100%;
+    border-radius: 9px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-radius: 9px;
-
-    padding-left: 1em;
-
 }
 
+.box input{
+    width: 60%;
+    padding: 0px;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+input::placeholder{
+    font-size: 12px;
+}
 .code-btn{
-    width: 30%;
-    border: solid 3px transparent;
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+    border-radius: 9px;
+    border: solid 2px transparent;
+    background-image:  linear-gradient(white, white),linear-gradient(120deg,rgba(198, 58, 192, 0.8),rgba(81, 142, 248, 0.4));
 }
 .btn-txt{
-    width: 100%;
-    height: 100%;
-    padding: 20px 0px;
+    padding: 16px 16px;
+    font-size: 10px;
     color: white;
-    border-radius: 9px;
+    border-radius: 7px;
     text-align: center;
+   
 }

@@ -8,7 +8,7 @@ const SearchBox = () => {
     <div className='search-box-border border-gradient gradient-bottom'>
             <div className='search-box'>
                     <img src={Search} alt='search' />
-                    <input type='text' placeholder='Search your StoreCode'  className='search'/>
+                    <input className='search' type='text' placeholder='Search your StoreCode'  />
                     <img src={mic} alt="mic" />
                 </div>
     </div>

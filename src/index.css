@@ -1,12 +1,21 @@
 :root{
-  --pink:#C63AC0B5;
-  --blue:#518EF8;
+  --blue :#518EF8;
+  --blue1 :rgb(84, 144, 248,0.4);
+  --blue2 :rgb(84, 144, 248,0.6);
+
+  --pink:#C63AC0;
+  --pink1:rgb(198, 57, 191,0.2);
+  --pink2:rgb(198, 57, 191,0.57);
+  --grey1:#8391A1;
+  --grey2:#F7F8F9;
+  --white:#fff;
 }
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 body {
   margin: 0;
