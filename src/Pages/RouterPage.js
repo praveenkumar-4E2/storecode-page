@@ -27,7 +27,7 @@ const RouterPage = () => {
           <Route path="chat" element={<ChatPage />} />
         </Route >
 
-        <Route path="/*" element={<HomePage />} />
+        <Route path="/*" element={<MainPage />} />
         <Route path="registeration" element={<RegisterationPage />} />
         <Route path="login" element={<LoginPage />} />
         <Route path="forgot/password" element={<ForgotPasswordPage />} />
